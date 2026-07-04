@@ -2,7 +2,7 @@ name: Deploy Codex to GitHub Pages
 
 # This workflow lives under dev-wiki/ in the walksheds repo for review, but it is
 # inert there (GitHub only runs workflows at a repo root). It activates once the
-# contents of dev-wiki/ become the root of the standalone tommyroar/walksheds-dev-wiki
+# contents of dev-wiki/ become the root of the standalone robogeosociety/walksheds-dev-wiki
 # repo, which serves dev.wiki.walksheds.xyz. See deployment.md in this codex.
 
 on:

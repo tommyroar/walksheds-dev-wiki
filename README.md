@@ -8,7 +8,7 @@ Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
 ## Layout
 
-This directory is authored under `dev-wiki/` in the [`tommyroar/walksheds`](https://github.com/tommyroar/walksheds) repo for review, and published from the standalone `tommyroar/walksheds-dev-wiki` repo. GitHub Pages allows only one custom domain per repo, so the codex needs its own repo to get its own subdomain. See `docs/deployment.md`.
+This directory is authored under `dev-wiki/` in the [`robogeosociety/walksheds`](https://github.com/robogeosociety/walksheds) repo for review, and published from the standalone `robogeosociety/walksheds-dev-wiki` repo. GitHub Pages allows only one custom domain per repo, so the codex needs its own repo to get its own subdomain. See `docs/deployment.md`.
 
 ```
 mkdocs.yml                  site config, nav, theme (Link palette)

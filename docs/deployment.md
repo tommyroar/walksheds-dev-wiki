@@ -56,8 +56,8 @@ Walksheds has two companion sites alongside the app, each on its own subdomain. 
 
 | Site | Subdomain | Audience | Stack | Source dir | Repo |
 | --- | --- | --- | --- | --- | --- |
-| Guide | `wiki.walksheds.xyz` | readers, riders, advocates | MkDocs Material | `wiki/` | `tommyroar/walksheds-wiki` |
-| Codex (this) | `dev.wiki.walksheds.xyz` | engineers, contributors | MkDocs Material | `dev-wiki/` | `tommyroar/walksheds-dev-wiki` |
+| Guide | `wiki.walksheds.xyz` | readers, riders, advocates | MkDocs Material | `wiki/` | `robogeosociety/walksheds-wiki` |
+| Codex (this) | `dev.wiki.walksheds.xyz` | engineers, contributors | MkDocs Material | `dev-wiki/` | `robogeosociety/walksheds-dev-wiki` |
 
 ```mermaid
 flowchart LR
@@ -65,8 +65,8 @@ flowchart LR
     W[wiki/ — reader guide]
     D[dev-wiki/ — this codex]
   end
-  W --> WR[tommyroar/walksheds-wiki] --> WS[wiki.walksheds.xyz]
-  D --> DR[tommyroar/walksheds-dev-wiki] --> DS[dev.wiki.walksheds.xyz]
+  W --> WR[robogeosociety/walksheds-wiki] --> WS[wiki.walksheds.xyz]
+  D --> DR[robogeosociety/walksheds-dev-wiki] --> DS[dev.wiki.walksheds.xyz]
   TF[infra: wiki + dev.wiki CNAMEs] --> CF[Cloudflare] --> WS
   CF --> DS
 ```
